@@ -1,0 +1,22 @@
+{
+  "dataset_path": "C:\\Users\\vaibh\\Downloads\\CODESOFT_03\\data\\Churn_Modelling.csv",
+  "rows": 10000,
+  "feature_count": 10,
+  "target_column": "Exited",
+  "target_counts": {
+    "0": 7963,
+    "1": 2037
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "best_model_by_average_precision": "Gradient Boosting",
+  "best_model_metrics": {
+    "model": "Gradient Boosting",
+    "accuracy": 0.869,
+    "precision": 0.7821011673151751,
+    "recall": 0.49385749385749383,
+    "f1": 0.6054216867469879,
+    "roc_auc": 0.8702176753024209,
+    "average_precision_pr_auc": 0.7186242916103142
+  }
+}
